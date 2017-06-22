@@ -1,0 +1,12 @@
+db:
+  hibernate.connection.driver_class: com.mysql.jdbc.Driver
+  hibernate.connection.url: jdbc:mysql://localhost/hack
+  hibernate.connection.username: root
+  hibernate.show_sql: false
+server:
+ applicationConnectors:
+ - type: http
+   port: 8080
+ adminConnectors:
+ - type: http
+   port: 8081

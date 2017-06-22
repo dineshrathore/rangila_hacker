@@ -1,0 +1,10 @@
+hack-autocs.iml
+.idea/
+target/*
+/target/
+*.iml
+# Maven
+log/
+target/
+*/target/**
+*/*.class
